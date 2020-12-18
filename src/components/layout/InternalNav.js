@@ -6,7 +6,7 @@ export default class Nav extends Component {
     return (
       <div className="navbar">
         <div className="navbar__logo">
-          <Link to="/">gesser.works</Link>
+          <Link to="/portfolio/">gesser.works</Link>
         </div>
         <div className="navbar__nav">
           <ul>

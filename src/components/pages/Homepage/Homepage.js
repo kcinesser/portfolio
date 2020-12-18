@@ -28,7 +28,9 @@ export default class Homepage extends Component {
             >
               <p className="project__title">{project.title}</p>
               <p className="project__excerpt">
-                <Link to={`/${project.slug}`}>{project.excerpt} </Link>
+                <Link to={`/portfolio/${project.slug}`}>
+                  {project.excerpt}{" "}
+                </Link>
               </p>
             </div>
           </div>
