@@ -11,7 +11,7 @@ export default class Nav extends Component {
         <div className="navbar__nav">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/portfolio/">Home</Link>
             </li>
           </ul>
         </div>
