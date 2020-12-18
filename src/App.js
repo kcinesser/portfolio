@@ -7,10 +7,10 @@ import Project from "./components/pages/Project/Project";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Switch>
-          <Route path="/portfolio/" exact component={Homepage} />
-          <Route path="/portfolio/:slug" exact component={Project} />
+          <Route path="/" exact component={Homepage} />
+          <Route path="/:slug" exact component={Project} />
         </Switch>
       </Router>
     </div>
