@@ -28,9 +28,7 @@ export default class Homepage extends Component {
             >
               <p className="project__title">{project.title}</p>
               <p className="project__excerpt">
-                <Link to={`/portfolio/${project.slug}`}>
-                  {project.excerpt}{" "}
-                </Link>
+                <Link to={`/${project.slug}`}>{project.excerpt} </Link>
               </p>
             </div>
           </div>
@@ -188,7 +186,7 @@ export default class Homepage extends Component {
         <div className="container" id="work">
           <h1>Work</h1>
           <p>
-            Here are a few examples of some work I've done over the past few
+            Here are a few examples of some the work I've done over the past few
             years. Some professional, some for fun.
           </p>
           <div className="project__filter col w-3_4 center">
